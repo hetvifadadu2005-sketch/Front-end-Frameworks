@@ -29,11 +29,11 @@ import { render, screen, fireEvent, waitFor } from '@testing-library/react'
 import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest'
 import { MemoryRouter, Routes, Route } from 'react-router-dom'
 
-import App from '../src/App'
-import NotFoundPage from '../src/pages/NotFoundPage'
-import AboutPage from '../src/pages/AboutPage'
-import HomePage from '../src/pages/HomePage'
-import type { Movie } from '../src/types'
+import App from '../App'
+import NotFoundPage from '../pages/NotFoundPage'
+import AboutPage from '../pages/AboutPage'
+import HomePage from '../pages/HomePage'
+import type { Movie } from '../types'
 
 // ── Shared test fixtures ──────────────────────────────────────────────────────
 
